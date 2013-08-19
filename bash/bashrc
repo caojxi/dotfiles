@@ -1,6 +1,8 @@
 # my bashrc file
 
-alias l='ls -al'
+source ~/bin/dotfiles/bash/env
+source ~/bin/dotfiles/bash/alias
+source ~/bin/dotfiles/bash/prompt
 
 ############# rvm setup #############
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
