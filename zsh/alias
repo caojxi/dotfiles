@@ -1,2 +1,8 @@
 alias c='clear'
 alias rb='ruby'
+alias h='python -m SimpleHTTPServer'
+
+# open local host
+lh () {
+  open http://localhost:$1
+}
