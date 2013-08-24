@@ -1,6 +1,9 @@
 alias c='clear'
 alias rb='ruby'
 alias h='python -m SimpleHTTPServer'
+alias mc='make clean'
+alias m='make'
+alias mcm='make clean; make'
 
 # open local host
 lh () {
